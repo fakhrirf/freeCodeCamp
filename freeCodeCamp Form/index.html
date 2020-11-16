@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.scss">
+</head>
+<body>
+    <div id="main" class="container">
+        <div class="form-detail">
+          <div class="col-xs-12 col-lg-offsett-3 col-lg-6"> 
+            <div class="m-b-md text-center">
+              <h1 id="title"> freeCodeCamp Survey Form </h1>
+              <p id="description" class="description" class="text-center"> Let us know how we can improve freecodecamp </p>
+            </div>
+            <form method="GET" action="" id="survey-form">
+              <fieldset>
+                <label for="name" id="label-name">
+                  Name *
+                  <input class="" type="text" id ="name" name="name" placeholder="Enter Your name (required)" required />
+                </label>
+               </fieldset>
+              <fieldset>
+                <label for="email" id="label-email">
+                  Email *
+                  <input class="" type="email" id="email" name="email" placeholder="Enter Your Email (required)" required />
+                </label>
+              </fieldset>
+              <fieldset>
+                <label for="number" id="label-number">
+                  Age *
+                  <input class="" type="number" id="number"
+                        min="7" maz="112" placeholder="Enter Your Age (required)" required />
+                </label>
+              </fieldset>
+              <fieldset>
+                <label for="dropdown" >
+                  Which Option Best describes your current role ? *
+                  <select id="dropdown" name="dropdown" class="m-t-xs">
+                    <option value="student" selected>Student</option>
+                    <option value="ftLearner">Full Time</option>
+                    <option value="notSaying"> Prefer not to Saying</option>
+                    <option value="other">Other</option>
+                  </select>
+                </label>
+              </fieldset>
+              <fieldset>
+                <label for="survey-form-like">
+                  What do you like the Most in FCC:
+                  <select id="survey-form-like" name="survey-form-like" class="m-t-xs">
+                    <option value="challenges" selected>
+                      Challenges
+                    </option>
+                    <option value="projects">Project</option>
+                    <option value="community">Community</option>
+                    <option value="openSource">OpenSource</option>
+                  </select>
+                </label>
+              </fieldset>
+              <fieldset>
+                <div class="labels"> Things that should be improved in future (Check all that Apply):
+                </div>
+                <label for="survey-form-improved1" class="m-b-xs">
+                  <input type="checkbox" id="survey-form-improve1" value="feProjects"> 
+                  Front-End-Projects
+                </label>
+                <label for="survey-form-improve2" value="beProjects">
+                <input type="checkbox" id="survey-form-improve2" value="beProjects"> 
+                  Back-End-Projects
+                </label>
+                <label for="survey-form-improve3" class="m-b-xs">
+                  <input type="checkbox" id="survey-form-improve3" value="dataVisualization">
+                  Data Visualization 
+                </label>
+                <label for="survey-form-improve4" class="m-b-xs">
+                  <input type="checkbox" name="survey-form-improve4" class="m-t-xs">
+                  <option value="challenges" selected> Challenges </option>
+                  <label for="survey-form-improve5" class="m-b-xs">
+                  <input type="checkbox" name="survey-form-improve5" class="m-t-xs">
+                  <option value="projects">Projects</option>
+                  <label for="survey-form-improve5" class="m-b-xs">
+                  <input type="checkbox" name="survey-form-improve5" class="m-t-xs">
+                  <label for="survey-form-improve5" class="m-b-xs">
+                  <option value="community">Community</option>
+                  <label for="survey-form-improve6" class="m-b-xs">
+                  <input type="checkbox" name="survey-form-improve6" class="m-t-xs">
+                    <label for="survey-form-improve8" class="m-b-xs">
+                  <option value="openSource" class="survey-form-improve8">Open Source</option>
+                  <label for="survey-form-improve8" class="m-b-xs">
+                  <input type="checkbox" name="survey-form-improve9" class="m-t-xs">
+                  <option value="openSource">gitter help rooms</option>
+                  <input type="checkbox" name="survey-form-improve9" class="m-t-xs">
+                  <option value="openSource">Videos</option> 
+                  <input type="checkbox" name="survey-form-improve10" class="m-t-xs">
+                  <option value="openSource">City Meetups</option>
+                  <input type="checkbox" name="survey-form-improve11" class="m-t-xs">
+                  <option value="openSource">Wiki</option>
+                  <input type="checkbox" name="survey-form-improve12" class="m-t-xs">
+                  <option value="openSource">Forum</option>
+                  <input type="checkbox" name="survey-form-improve9" class="m-t-xs">
+                  <option value="openSource">Additional Course</option>
+                  </select>
+                </label>
+              </fieldset>
+              <fieldset>
+                <label for="survey-form-suggestions">
+                  Any Comments or Suggestions?
+                  <textarea id="survey-form-suggestions" maxlength="194"></textarea>
+                  <button id="submit" type="submit" class="btn">Submit the form </button>
+                    <div class="copyright m-t-sm">
+                  <div>By <a href="http://www.adeleroyer.fr" title="Adèle Royer">Adèle Royer</a> with 
+                   <i class="glyphicon glyphicon-heart"></i></div>
+                </div>
+          </div>
+            
+</body>
+</html>
